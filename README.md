@@ -1,1 +1,1 @@
-## React + Typescript + eslint(airbnb, prettier)
+## React + Typescript + eslint(airbnb, prettier) + Redux + styled-components
