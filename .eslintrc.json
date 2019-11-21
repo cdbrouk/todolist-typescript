@@ -1,9 +1,16 @@
 {
-  "extends": ["airbnb", "prettier", "prettier/@typescript-eslint"],
+  "extends": ["airbnb"],
   "plugins": ["@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
   "rules": {
-    "import/no-unresolved": 0,
-    "react/jsx-filename-extension": { "extensions": [".jsx", ".tsx"] }
+    "implicit-arrow-linebreak": 0,
+    "import/no-unresovled": 0,
+    "arrow-parens": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx", ".tsx"] }]
+  },
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
   }
 }
