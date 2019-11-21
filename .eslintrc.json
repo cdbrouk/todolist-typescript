@@ -1,10 +1,6 @@
 {
-  "extends": [
-    "airbnb",
-    "prettier/@typescript-eslint",
-    "plugin:prettier/recommended"
-  ],
-  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": ["airbnb", "prettier", "prettier/@typescript-eslint"],
+  "plugins": ["@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
   "rules": {
     "import/no-unresolved": 0,
