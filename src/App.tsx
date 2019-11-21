@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { Fragment } from "react";
+import TodoInsert from "components/TodoInsert";
+import TodoList from "components/TodoList";
 
-const App = () => {
+function App() {
   return (
-    <div className="App">
-      React Typescript + eslint airbnb, prettier + Redux + Styled-Components
-    </div>
+    <Fragment>
+      <TodoInsert />
+      <TodoList />
+    </Fragment>
   );
-};
+}
 
 export default App;
