@@ -22,7 +22,7 @@ type TodosAction =
   | ReturnType<typeof toggleTodo>
   | ReturnType<typeof removeTodo>;
 
-interface Todo {
+export interface Todo {
   id: number;
   text: string;
   done: boolean;
