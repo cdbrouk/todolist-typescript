@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-const App: React.FC = () => {
+function App() {
   return <div className="App">React Typescript + eslint airbnb, prettier</div>;
-};
+}
 
 export default App;
